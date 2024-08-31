@@ -9,7 +9,7 @@ const App = () => {
   const sendMail = (e) => {
     e.preventDefault();
     axios
-      .get("https://mailer-test-mj26.onrender.com", {
+      .get("https://mailer-test-mj26.onrender.com/mailingport", {
         params: {
           email,
           subject,
